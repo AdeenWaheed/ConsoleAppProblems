@@ -1,0 +1,21 @@
+﻿## Ignore Visual Studio folders
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Ignore build output
+bin/
+obj/
+TestResults/
+
+## Ignore packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+## Ignore logs and temp
+*.log
+*.tmp
