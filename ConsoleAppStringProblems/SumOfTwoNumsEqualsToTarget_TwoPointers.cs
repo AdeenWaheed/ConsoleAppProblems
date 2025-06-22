@@ -1,6 +1,6 @@
 ﻿namespace ConsoleAppStringProblems
 {
-    public class SumOfTwoNumsEqualsToTarget
+    public class SumOfTwoNumsEqualsToTarget_TwoPointers
     {
         public void Code()
         {
@@ -16,23 +16,19 @@
 
         private (int, int) Fun(int[] arr, int target)
         {
-            int index1 = -1, index2 = -1;
-            Dictionary<int, int> dic = new Dictionary<int, int>();
-            for (int i = 0; i < arr.Length; i++)
+            //Two Pointer approach can only be applied on a sorted array
+            int left = 0, right = arr.Length-1;
+            while (left < right)
             {
-                int num = target - arr[i];
-                if (!dic.ContainsKey(num))
-                {
-                    dic.Add(arr[i], i);
-                }
+                int sum = arr[left] + arr[right];
+                if (sum == target)
+                    return (left, right);
+                else if (sum < target)
+                    left--;
                 else
-                {
-                    index1 = i;
-                    index2 = dic[num];
-                    break;
-                }
+                    right--;
             }
-            return (index1, index2);
+            return (-1, -1);
         }
     }
 }
