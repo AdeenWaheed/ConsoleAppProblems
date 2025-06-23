@@ -1,6 +1,4 @@
-﻿using ConsoleAppProblems;
-
-namespace ConsoleAppStringProblems
+﻿namespace ConsoleAppStringProblems
 {
     internal class Program
     {
@@ -13,10 +11,11 @@ namespace ConsoleAppStringProblems
             //SumOfTwoNumsEqualsToTarget sumOfTwoNumsEqualsToTarget = new SumOfTwoNumsEqualsToTarget();
             //sumOfTwoNumsEqualsToTarget.Code();
 
-            SumOfTwoNumsEqualsToTarget_TwoPointers sumOfTwoNumsEqualsToTarget_TwoPointers = new SumOfTwoNumsEqualsToTarget_TwoPointers();
-            sumOfTwoNumsEqualsToTarget_TwoPointers.Code();
+            //SumOfTwoNumsEqualsToTarget_TwoPointers sumOfTwoNumsEqualsToTarget_TwoPointers = new SumOfTwoNumsEqualsToTarget_TwoPointers();
+            //sumOfTwoNumsEqualsToTarget_TwoPointers.Code();
 
+            MostOccuringEleSol mostOccuringEleSol = new MostOccuringEleSol();
+            mostOccuringEleSol.Code();
         }
-
     }
 }
