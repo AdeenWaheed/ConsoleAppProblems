@@ -17,8 +17,11 @@
             //MostOccuringEleSol mostOccuringEleSol = new MostOccuringEleSol();
             //mostOccuringEleSol.Code();
 
-            LengthOfLongestSubstringSol lengthOfLongestSubstringSol = new LengthOfLongestSubstringSol();
-            lengthOfLongestSubstringSol.Code();
+            //LengthOfLongestSubstringSol lengthOfLongestSubstringSol = new LengthOfLongestSubstringSol();
+            //lengthOfLongestSubstringSol.Code();
+
+            LengthOfLongestSubstringSol_TwoPointers lengthOfLongestSubstringSol_TwoPointers = new LengthOfLongestSubstringSol_TwoPointers();
+            lengthOfLongestSubstringSol_TwoPointers.Code();
         }
     }
 }
