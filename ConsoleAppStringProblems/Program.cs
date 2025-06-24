@@ -14,8 +14,11 @@
             //SumOfTwoNumsEqualsToTarget_TwoPointers sumOfTwoNumsEqualsToTarget_TwoPointers = new SumOfTwoNumsEqualsToTarget_TwoPointers();
             //sumOfTwoNumsEqualsToTarget_TwoPointers.Code();
 
-            MostOccuringEleSol mostOccuringEleSol = new MostOccuringEleSol();
-            mostOccuringEleSol.Code();
+            //MostOccuringEleSol mostOccuringEleSol = new MostOccuringEleSol();
+            //mostOccuringEleSol.Code();
+
+            LengthOfLongestSubstringSol lengthOfLongestSubstringSol = new LengthOfLongestSubstringSol();
+            lengthOfLongestSubstringSol.Code();
         }
     }
 }
