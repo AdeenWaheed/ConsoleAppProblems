@@ -29,6 +29,9 @@
                 }
             }
 
+            if (uniqSeq.Count() > longest)
+                longest = uniqSeq.Count();
+
             return longest;
         }
     }
