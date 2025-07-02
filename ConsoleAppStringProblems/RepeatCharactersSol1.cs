@@ -4,9 +4,9 @@
     {
         public void Code()
         {
-            //ab3c0d10
-
-            //abababdddddddddd
+            //Problem
+            //Input: ab3c0d10
+            //Output: abababdddddddddd
 
             string s = "ab3c0d10";
             //string s = "ab3c500d5";

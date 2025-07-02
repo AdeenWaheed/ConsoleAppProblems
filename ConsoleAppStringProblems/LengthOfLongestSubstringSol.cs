@@ -4,6 +4,7 @@
     {
         public void Code()
         {
+            // LengthOfLongestSubstring without repeating characters
             string s = "abcabcbb"; // s = "bbbbb", s = "pwwkew";
             Console.WriteLine($"LengthOfLongestSubstring: {LengthOfLongestSubstring(s)}");
         }

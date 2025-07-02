@@ -6,6 +6,8 @@
         {
             //Given a non-empty array of integers nums, your task is to return the k most frequently occurring elements.
             //You must return the answer in any order. If there is a tie in frequency, any of the tied elements may be returned as part of the result.
+            //Input: nums = [1, 1, 1, 2, 2, 3], k = 2
+            //Output: [1, 2]
 
             int[] nums = [1, 1, 1, 2, 2, 3]; int k = 2;
             var respArr = MostOccuringEle(nums, k);
