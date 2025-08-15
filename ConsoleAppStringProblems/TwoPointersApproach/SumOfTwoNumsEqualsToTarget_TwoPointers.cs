@@ -1,4 +1,4 @@
-﻿namespace ConsoleAppStringProblems
+﻿namespace ConsoleAppStringProblems.TwoPointersApproach
 {
     public class SumOfTwoNumsEqualsToTarget_TwoPointers
     {

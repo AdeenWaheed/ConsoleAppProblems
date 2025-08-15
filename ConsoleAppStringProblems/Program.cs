@@ -1,4 +1,7 @@
-﻿namespace ConsoleAppStringProblems
+﻿using ConsoleAppStringProblems.PrefixSum;
+using ConsoleAppStringProblems.TwoPointersApproach;
+
+namespace ConsoleAppStringProblems
 {
     internal class Program
     {
@@ -28,8 +31,12 @@
             //ReverseWordsInAStringSol reverseWordsInAStringSol = new ReverseWordsInAStringSol();
             //reverseWordsInAStringSol.Code();
 
-            CountPairsWithDiffEqualToKSol countPairsWithDiffEqualToKSol = new CountPairsWithDiffEqualToKSol();
-            countPairsWithDiffEqualToKSol.Code();
+            //CountPairsWithDiffEqualToKSol countPairsWithDiffEqualToKSol = new CountPairsWithDiffEqualToKSol();
+            //countPairsWithDiffEqualToKSol.Code();
+
+            SubarraySumEqualsK subarraySumEqualsK = new SubarraySumEqualsK();
+            subarraySumEqualsK.Code();
+
         }
     }
 }
