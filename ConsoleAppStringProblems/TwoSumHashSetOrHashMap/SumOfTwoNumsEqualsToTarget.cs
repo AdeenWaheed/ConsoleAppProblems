@@ -1,4 +1,4 @@
-﻿namespace ConsoleAppStringProblems
+﻿namespace ConsoleAppStringProblems.TwoSumHashSetOrHashMap
 {
     public class SumOfTwoNumsEqualsToTarget
     {
@@ -34,5 +34,37 @@
             }
             return (index1, index2);
         }
+
+        //Another way
+        //public int[] TwoSum(int[] nums, int target)
+        //{
+        //    int[] result = new int[2];
+        //    result[0] = 0;
+        //    result[1] = 0;
+
+        //    Dictionary<int, int> ds = new Dictionary<int, int>();
+
+        //    for (int i = 0; i < nums.Length; i++)
+        //    {
+        //        //Logic to solve
+        //        //target = nums[i] + nums[j];
+        //        //nums[j] = target - nums[i];
+
+        //        int v = target - nums[i];
+        //        if (ds.ContainsKey(v))
+        //        {
+        //            result[0] = i;
+        //            result[1] = ds[v];
+        //            break;
+        //        }
+
+        //        if (!ds.ContainsKey(nums[i]))
+        //        {
+        //            ds.Add(nums[i], i);
+        //        }
+        //    }
+
+        //    return result;
+        //}
     }
 }

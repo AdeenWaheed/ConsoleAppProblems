@@ -1,4 +1,4 @@
-﻿namespace ConsoleAppStringProblems
+﻿namespace ConsoleAppStringProblems.TwoSumHashSetOrHashMap
 {
     public class CountPairsWithDiffEqualToKSol
     {
